@@ -1,14 +1,14 @@
 .main {
     font-family:'ms gothic', monospace;
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 10px;
     background-color:lightslategrey;
     color: midnightblue;
     text-align: center;
     border-radius: 5px;
     font-size: 125%;
 
-    grid-template-columns: 360px 240px 300px;
+    grid-template-columns: 300px 350px 300px;
     grid-template-areas:
     'header header header'
     'bio pic toProjects'
@@ -56,16 +56,23 @@
 }
 .pic {
     grid-area: pic;
+    margin: 20px;
+    margin-left: 10px;
+    align-self: center;
+    border-style: double;
+    border-color: snow;
 }
 .toProjects {
     grid-area: toProjects;
-    margin: 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     margin-left: 10px;
     padding-top: 20%;
     color: midnightblue;
     background-color: snow;
     border-style:double;
     border-color: midnightblue;
+    font-size: 200%;
 }
 .card {
     grid-area: card;
@@ -111,4 +118,11 @@ h5 {
 }
 .card-text {
     font-size: 85%;
+}
+a:link {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+a:hover {
+    color: gold;
 }
