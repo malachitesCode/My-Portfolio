@@ -1,1 +1,114 @@
+.main {
+    font-family:'ms gothic', monospace;
+    display: grid;
+    grid-gap: 5px;
+    background-color:lightslategrey;
+    color: midnightblue;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 125%;
 
+    grid-template-columns: 360px 240px 300px;
+    grid-template-areas:
+    'header header header'
+    'bio pic toProjects'
+    'footer footer footer'
+}
+.project {
+    font-family:'ms gothic', monospace;
+    display: grid;
+    grid-gap: 5px;
+    background-color:lightslategrey;
+    color: midnightblue;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 125%;
+
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas:
+    'header header header'
+    'card card2 card3'
+    'footer footer footer'
+}
+.header {
+    grid-area: header;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 200%;
+    font-variant: small-caps;
+    text-align: left;
+    background-color: lightcyan;
+    border-style:double;
+    border-color: midnightblue;
+}
+.bio {
+    grid-area: bio;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    color:snow;
+    background-color: midnightblue;
+    border-style:double;
+    border-color: snow;
+    font-size: 80%;
+}
+.pic {
+    grid-area: pic;
+}
+.toProjects {
+    grid-area: toProjects;
+    margin: 20px;
+    margin-left: 10px;
+    padding-top: 20%;
+    color: midnightblue;
+    background-color: snow;
+    border-style:double;
+    border-color: midnightblue;
+}
+.card {
+    grid-area: card;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color:midnightblue;
+    color: snow;
+    border-style:double;
+    border-color: snow;
+}
+.card2 {
+    grid-area: card2;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color:midnightblue;
+    color: snow;
+    border-style:double;
+    border-color: snow;
+}
+.card3 {
+    grid-area: card3;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color:midnightblue;
+    color: snow;
+    border-style:double;
+    border-color: snow;
+}
+.footer {
+    grid-area: footer;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: darkslateblue;
+    border-style:double;
+    border-color: midnightblue;
+    color:lightcyan;
+}
+h5 {
+    font-weight: bold;
+}
+.card-text {
+    font-size: 85%;
+}
