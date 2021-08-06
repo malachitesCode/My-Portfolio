@@ -123,6 +123,15 @@ a:link {
     color:darkgoldenrod;
     text-decoration: none;
 }
+a:visited {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
 a:hover {
     color: gold;
+    text-decoration: none;
+}
+a:active {
+    color:darkgoldenrod;
+    text-decoration: none;
 }
